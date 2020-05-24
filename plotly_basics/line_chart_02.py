@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.offline as pyo
 import plotly.graph_objs as go
 
-data_folder = os.path.join(os.path.dirname(__file__), 'data_samples/SourceData')
+data_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data_samples/SourceData')
 data_file = os.path.join(data_folder, 'nst-est2017-alldata.csv')
 df = pd.read_csv(data_file)
 

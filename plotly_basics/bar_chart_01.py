@@ -4,7 +4,7 @@ import plotly.offline as pyo
 import plotly.graph_objs as go
 
 
-data_folder = os.path.join(os.path.dirname(__file__), 'data_samples/Data')
+data_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data_samples/Data')
 data_file = os.path.join(data_folder, '2018WinterOlympics.csv')
 df = pd.read_csv(data_file)
 
