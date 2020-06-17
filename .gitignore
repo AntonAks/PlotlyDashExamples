@@ -1,3 +1,4 @@
 *.html
 /.vscode
 /.idea
+local_settings.py
