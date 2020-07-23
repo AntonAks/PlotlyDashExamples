@@ -1,4 +1,5 @@
 *.html
 /.vscode
 /.idea
+venv/
 local_settings.py
